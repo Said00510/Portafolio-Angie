@@ -1,4 +1,3 @@
-import ImgSkills from '../../assets/img/prueba.png'
 import Skills from './HeroSkillsSection'
 import MyChart from './HeroGrafic'
 

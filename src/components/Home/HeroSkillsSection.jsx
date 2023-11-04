@@ -1,5 +1,5 @@
 import Autocad from '../../assets/img/skills/autocad.webp';
-import Word from '../../assets/img/skills/Word.png';
+import Word from '../../assets/img/skills/word.png';
 import Excel from '../../assets/img/skills/excel.png';
 import Database from '../../assets/img/skills/database.png';
 import Powerpoint from '../../assets/img/skills/Powerpoint.png';
