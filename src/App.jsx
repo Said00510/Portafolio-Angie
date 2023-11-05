@@ -20,8 +20,8 @@ function App() {
     <Nav/>
     <Routes>
       <Route path='/' element={<Home />} />
-          <Route path='About' element={<About />} />
-          <Route path='Experience' element={<Experiencia />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Experience' element={<Experiencia />} />
           <Route path='*' element={<p>Not found</p>} />
       </Routes>
      <Social/>

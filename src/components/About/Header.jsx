@@ -46,25 +46,25 @@ function Header () {
                     <div  className='w-1/2 flex justify-center custom-about'>
                         <div className='flex flex-col justify-between gap-3'>
                             <div className='flex gap-3 items-center '>
-                                <img src={Data} alt=""/>
+                                <img loading='lazy' src={Data} alt=""/>
                                 <span className='xs:text-[14px] xsm:text-xl font-bold uppercase tracking-wider text-[#fff]'>
                                     Optimización de Procesos.
                                 </span>
                             </div>
                             <div className='flex gap-3 items-center'>
-                                <img src={Optimization} alt="" />
+                                <img loading='lazy' src={Optimization} alt="" />
                                 <span className='xs:text-[14px] xsm:text-xl font-bold uppercase tracking-wider text-[#fff]'>
                                     Gestión de Proyectos.
                                 </span>
                             </div>
                             <div className='flex gap-3 items-center'>
-                                <img src={Folds} alt="" />
+                                <img loading='lazy' src={Folds} alt="" />
                                 <span className='xs:text-[14px] xsm:text-xl font-bold uppercase tracking-wider text-[#fff]'>
                                     Decisiones Analíticas.
                                 </span>
                             </div>
                             <div className='flex gap-3 items-center'>
-                                <img src={Skills} alt="" />
+                                <img loading='lazy' src={Skills} alt="" />
                                 <span className='xs:text-[14px] xsm:text-xl font-bold uppercase tracking-wider text-[#fff]'>
                                     Comunicación.
                                 </span>

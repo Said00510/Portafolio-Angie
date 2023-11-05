@@ -13,7 +13,7 @@ function Skills () {
     return(
     <div className='relative lg:flex lg:justify-center lg:items-center'>
         <div className="z-[0] grid items-center justify-center md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-x-[100px]">
-            <div className=" border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className=" border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] xl:mx-[60px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-60px] xsm:left-[-100px] bg-[#ef7689] p-3 text-white uppercase'>Base de <br className='xsm:hidden' />datos</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Database} alt="Imagen de base de datos" />
@@ -21,35 +21,35 @@ function Skills () {
             </div>
 
 
-            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-60px] xsm:left-[-70px] bg-[#ef7689] p-3 text-white uppercase'>PowerPoint</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Powerpoint} alt="Imagen de base de datos" />
                     </div>
             </div>
 
-            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-60px] xsm:left-[-120px] bg-[#ef7689] p-3 text-white uppercase'>Marketing <br className='xsm:hidden' /> Digital</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Marketing} alt="Imagen de base de datos" />
                     </div>
             </div>
 
-            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-50px] bg-[#ef7689] p-3 text-white uppercase'>AutoCad</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Autocad} alt="Imagen de base de datos" />
                     </div>
             </div>
 
-            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-40px] bg-[#ef7689] p-3 text-white uppercase'>Word</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Word} alt="Imagen de base de datos" />
                     </div>
             </div>
 
-            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] items-center p-5 rounded-2xl relative">
+            <div className="border-[4px] border-white flex justify-center md:w-fit md:mx-[50px] lg:mx-[36px] items-center p-5 rounded-2xl relative">
                 <p className='font-bold absolute left-[-40px] bg-[#ef7689] p-3 text-white uppercase'>Excel</p>
                     <div className="flex items-center justify-center skills-transform">
                         <img className='w-[100px] h-[100px]' loading="lazy" src={Excel} alt="Imagen de base de datos" />

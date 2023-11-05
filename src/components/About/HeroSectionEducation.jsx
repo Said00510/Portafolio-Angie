@@ -17,7 +17,7 @@ function Aboutedu() {
 
           <div className="flex flex-col lg:flex-row gap-5 ">
             <div className="lg:w-1/3 flex justify-center items-center">
-              <img src={University} alt="" />
+              <img loading="lazy" src={University} alt="" />
             </div>
             <div className="lg:w-8/12">
               <ul className="list-disc flex flex-col gap-2">
@@ -48,7 +48,7 @@ function Aboutedu() {
           <article className="rounded-xl shadow-lg p-7 lg:w-full  md:w-1/2 lg:h-1/2 max-w-full">
             <div className="flex flex-col gap-7 lg:gap-0 lg:flex-row justify-between items-center">
               <div className="flex justify-center items-center">
-                <img src={Secundary} alt="" />
+                <img loading="lazy" src={Secundary} alt="" />
               </div>
               <ul className="flex flex-col gap-2 list-disc">
                 <h3 className="font-bold text-[var(--Morado)] text-[20px] uppercase">
@@ -73,7 +73,7 @@ function Aboutedu() {
           <article className="rounded-xl  shadow-lg md:w-1/2 lg:w-full p-7 lg:h-1/2 max-w-full">
             <div className="flex flex-col lg:flex-row gap-7 lg:gap-2 justify-between lg:justify-start">
               <div className="flex justify-center items-center">
-                <img src={Languages} alt="" />
+                <img loading="lazy" src={Languages} alt="" />
               </div>
               <ul className="flex flex-col gap-2 list-disc">
                 <h3 className="font-bold text-[var(--Morado)] text-[20px] uppercase">

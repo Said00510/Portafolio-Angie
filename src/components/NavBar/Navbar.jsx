@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Spanish from "../../assets/svg/flag-for-flag-spain-svgrepo-com.svg"
+import Logo from '../../assets/img/Logotipo.png'
 
 function NavBar() {
 
@@ -35,8 +36,8 @@ function NavBar() {
       <nav className={`px-3 py-4 fixed w-full z-[99999] transition-all duration-300 linear ${scrolled ? 'scrolling' : ''}`}>
         <div className="flex justify-between items-center">
 
-          <div className="z-50">
-            <p className="text-white">LOGO AQUI</p>
+          <div className="z-50 xl:ml-4">
+            <img src={Logo} className="max-w-full w-[60px] h-[60px]" alt="" />
           </div>
 
             <div className={`rounded-full w-max  ${scrolled ? 'bg-transparent' : 'bg-[#71556B] shadow-lg'} flex`}>
@@ -54,7 +55,7 @@ function NavBar() {
                     <span className="text-[var(--turquesaPrincipal)] hidden lg:inline">|</span>
                   </li>
                     <div className="py-2 pr-4 flex justify-center items-center transition duration-300 ease-in-out">
-                      <span className="pr-6"><img src={Spanish} className="cursor-pointer" alt="Bandera de españa" /></span>
+                      <span className="pr-6"><img loading="lazy" src={Spanish} className="cursor-pointer" alt="Bandera de españa" /></span>
                     </div>
                 </ul>
             </div>

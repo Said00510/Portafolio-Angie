@@ -6,7 +6,7 @@ function Experience () {
         <section className="pt-[100px] px-[10%] bg-[#71556B]">
             <div className='flex flex-col-reverse lg:flex-row justify-evenly gap-7'>
                 <div className='mt-[50px] lg:mt-0 lg:w-1/2 flex justify-center items-center'>
-                    <img className='rounded-xl w-[500px]' src={Educationimg} alt="" />
+                    <img className='rounded-xl w-[500px]' loading='lazy' src={Educationimg} alt="" />
                 </div>
                 <div className='lg:w-1/2'>
                     <hr className='hidden md:block' />

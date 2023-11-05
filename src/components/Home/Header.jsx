@@ -7,6 +7,7 @@ function HomeHeader() {
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 relative custom-imghome">
             <img
+              loading="lazy"
               className="h-screen w-screen object-cover img"
               src={HomeImg}
               alt="Imagen del autor del portafolio Angie Rivas"
