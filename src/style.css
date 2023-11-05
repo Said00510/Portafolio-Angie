@@ -28,15 +28,6 @@
     font-family: 'Dancing Script', sans-serif;
 }
 
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /*Navbar Scroll*/
 nav.scrolling{
   background-color: #29272A;
@@ -289,6 +280,12 @@ nav.scrolling{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo transparente (RGBA) */
     pointer-events: none; /* Evita que la capa interponga en eventos del mouse */
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .custom-infohome{
+    top: 40px;
   }
 }
 
