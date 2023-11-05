@@ -14,11 +14,11 @@ function HomeHeader() {
             />
           </div>
           <div className="w-full md:w-1/2 flex justify-center px-6 flex-col text-white custom-infohome items-center lg:items-start">
-            <span className="custom-font-dancing uppercase font-bold text-[15px] xsm:text-lg tracking-widest mb-0 xsm:mb-2 hidden xsm:block">
+            <span className="custom-font-dancing uppercase font-bold text-[15px] sm:text-lg tracking-widest mb-0 xsm:mb-2 hidden xsm:block">
               Apasionada por aprender
             </span>
             <div className="flex gap-2 xsm:gap-4 md:gap-12 flex-col w-[90%] ">
-              <h1 className="font-bold text-[24px] xsm:text-[28px] xsm:text-5xl uppercase">
+              <h1 className="font-bold text-[24px] xsm:text-[28px] sm:text-5xl uppercase">
                 Ing. Industrial
               </h1>
               <p className="tracking-wide font-bold text-[14px] xsm:text-[18px]">
