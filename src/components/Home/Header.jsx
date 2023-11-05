@@ -14,7 +14,7 @@ function HomeHeader() {
             />
           </div>
           <div className="w-full md:w-1/2 flex justify-center px-6 flex-col text-white custom-infohome items-center lg:items-start">
-            <span className="custom-font-dancing uppercase font-bold text-[15px] xsm:text-lg tracking-widest mb-0 xsm:mb-2">
+            <span className="custom-font-dancing uppercase font-bold text-[15px] xsm:text-lg tracking-widest mb-0 xsm:mb-2 hidden xsm:block">
               Apasionada por aprender
             </span>
             <div className="flex gap-12 flex-col w-[90%] ">
