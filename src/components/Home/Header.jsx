@@ -18,7 +18,7 @@ function HomeHeader() {
               Apasionada por aprender
             </span>
             <div className="flex gap-2 xsm:gap-4 md:gap-12 flex-col w-[90%] ">
-              <h1 className="font-bold text-[28px] xsm:text-5xl uppercase">
+              <h1 className="font-bold text-[24px] xsm:text-[28px] xsm:text-5xl uppercase">
                 Ing. Industrial
               </h1>
               <p className="tracking-wide font-bold text-[14px] xsm:text-[18px]">
@@ -28,9 +28,9 @@ function HomeHeader() {
                 eficiencia y la eficacia en sus operaciones.
               </p>
 
-              <button className="btn button text-[12px] xsm:text-[18px] md:text-[20px] lg:rotate-[-10deg] inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3">
+              <button className="btn button mt-2 xsm:mt-0 text-[12px] xsm:text-[18px] md:text-[20px] lg:rotate-[-10deg] inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3">
                 <a href="../../../public/downloads/CV ANGIE MABEL RIVAS GUERRERO-1.pdf" download>
-                  <span className="text-[12px] xsm:text-xl">DESCARGAR CV</span>
+                  <span className="text-[16px] xsm:text-xl">DESCARGAR CV</span>
                 </a>
               </button>
             </div>
