@@ -17,8 +17,8 @@ function Experience () {
                         <p className='text-[16px] text-white font-light xsm:text-[18px]'>Explora mi historial laboral y logros sobresalientes a lo largo de mi carrera, evidenciando mi dedicación constante hacia la excelencia en diversos ámbitos profesionales.</p>
                         <hr className='hidden lg:w-1/2 lg:block mt-5' />
                         <div className='flex xs:flex-col sm:flex-row xs:gap-5 sm:gap-0 justify-between items-center mt-10 text-[18px]'>
-                            <span className='btn button inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3'>Aqui va algo</span>
-                            <span className='btn button inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3'>Aqui va algo</span>
+                            <span className='btn button inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3'>Logros</span>
+                            <span className='btn button inline-flex w-max px-3 py-2 xsm:px-7 xsm:py-3'>Clientes</span>
                         </div>
                     </div>
 

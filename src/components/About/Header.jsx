@@ -25,19 +25,19 @@ function Header () {
                                 <ul className='list-none flex flex-col mt-8 gap-2'>
                                     <li className='flex items-center gap-2'> 
                                         <span className='text-[#000]'><BiSolidHandRight/></span>
-                                        Aqui va algo.
+                                        Resultados demostrados y logros significativos.
                                     </li>
                                     <li className='flex items-center gap-2'>
                                         <span className='text-[#000]'><BiSolidHandRight/></span>
-                                        Aqui va algo.
+                                        Destrezas en colaboración y resolución de desafíos.
                                     </li>
                                     <li className='flex items-center gap-2'>
                                         <span className='text-[#000]'><BiSolidHandRight/></span>
-                                        Aqui va algo.
+                                        Dedicación al crecimiento profesional.
                                     </li>
                                     <li className='flex items-center gap-2'>
                                         <span className='text-[#000]'><BiSolidHandRight/></span>
-                                        Aqui va algo.
+                                        Emoción por contribuir al éxito.
                                     </li>
                                 </ul>
                             </blockquote>
